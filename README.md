@@ -1,0 +1,1 @@
+This repository demonstrates a subtle HTML/JavaScript bug involving the use of `addEventListener`. The bug occurs when attempting to attach an event listener to a variable that holds an 'undefined' value because the target element was not found.  The solution shows how to correctly check for the existence of the element before adding the event listener.
